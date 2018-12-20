@@ -56,7 +56,8 @@ The program should prompt the user for one of three commands:
 >1. "e" to encode a string
 >2. "d" to decode a string
 >3. "q" to quit
->4. Any other command should raise an error and reprompt. Accept either upper or lower case letters (Use the string method **upper()** or **lower()**). Use ‘q’ to control your **while** loop.
+
+Any other command should raise an error and reprompt. Accept either upper or lower case letters (Use the string method **upper()** or **lower()**). Use ‘q’ to control your **while** loop.
 
 If the command is encode, then the program prompts for a string to encode and a keyword (which consist only of letters). The program then returns the encoded string (cipher text).
 >1. To build the symmetric key, start with an empty string and as you loop through the keyword add characters to the key string (remember to check for duplicates before insertion. The string **in** operator is useful and remember that you can also use **not** as part of a Boolean expression, i.e. **not in**). Repeat to add the remaining characters in the alphabet.
