@@ -11,3 +11,14 @@ The substitution cipher is a cipher that has been in use for many hundreds of ye
 Then, using this system, the keyword "michigan" gives us the following alphabet mapping:
 
 ![image](https://github.com/liutiantian233/Password-Program/blob/master/michigan.png)
+
+Note how “michigan” starts the mapping, how the second “i” is skipped, and how the remaining letters continue in alphabetical order without the characters of “michigan”.
+
+Using the example above, the word “green” is translated as follows:
+- the ‘g’ is found at index 6 in the alphabet. The letter in the rotated alphabet is ‘n’.
+- the ‘r’ is found at index 17, the rotated letter is ‘r’.
+- the ‘e’ is found at index 4, the rotated letter is ‘g’.
+- the ‘e’ is found at index 4, the rotated letter is ‘g’.
+- the ‘n’ is found at index 13, the rotated letter is ‘l’.
+
+-------------------
