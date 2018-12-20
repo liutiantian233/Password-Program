@@ -4,7 +4,7 @@ The substitution cipher is a cipher that has been in use for many hundreds of ye
 
 -------------------
 
-## Encoding and Decoding
+## Encoding
  
 **Simple substitution cipher**: the cipher alphabet is created by first writing out a keyword, removing repeated letters in it, then writing all the remaining letters in the alphabet in the usual order. Consider the following example. Consider the alphabet being a single string consisting of the lower-case English letters as below (shown with each letter’s associated index, e.g. m’s index is 12):
 
@@ -26,3 +26,7 @@ Using the example above, the word “green” is translated as follows:
 Thus, the string ‘green’ becomes the string ‘nrggl’. You will use that cyphertext ‘nrggl’ as the starting point (“plaintext”) for the next stage, the affine cipher.
 
 -------------------
+
+## Decoding
+
+***Affine cipher***: The key for the Affine cipher consists of two numbers, a and b. It takes in a plain-text string, and translates it into a new string based on an encryption/decryption functions that rotate the alphabet of size m: (1) the encryption function is y = (a*x + b) mod m, (2) the decryption function is the inverse operation, i.e. do the encryption backwards (mathematically decryption is x=a-1*(y − b) mod m where a-1 satisfies the equation 1= a*a-1 mod m, but in this case thinking mathematically will make programming much more difficult).
