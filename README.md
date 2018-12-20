@@ -45,3 +45,5 @@ Thus, the string ‘green’ becomes the string ‘nrggl’. You will use that c
 ![image](https://github.com/liutiantian233/Password-Program/blob/master/encrypt.png)
 
 **Build the entire affine mapping and then use it to encrypt the plaintext.**
+
+**To decrypt** you want to reverse that process. That is, start with the ciphertext “k” and work backwards (using the affine mapping) to get “n” and repeat for the remaining characters.
