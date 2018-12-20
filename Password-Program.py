@@ -1,5 +1,5 @@
 ###########################################################
-#  Computer Project #3
+#  Computer
 #
 #  This is a password program
 #  use the while loop
