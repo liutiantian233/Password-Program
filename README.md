@@ -30,9 +30,9 @@ Thus, the string ‘green’ becomes the string ‘nrggl’. You will use that c
 ## Decoding
 
 **Affine cipher**: The key for the Affine cipher consists of two numbers, a and b. It takes in a plain-text string, and translates it into a new string based on an encryption/decryption functions that rotate the alphabet of size m: 
-- (1) the encryption function is y = (a * x + b) mod m
-- (2) the decryption function is the inverse operation
-- i.e. do the encryption backwards (mathematically decryption is x = a<sup>-1</sup> * (y − b) mod m where a<sup>-1</sup> satisfies the equation 1 = a * a<sup>-1</sup> mod m, but in this case thinking mathematically will make programming much more difficult).
+- (1) The encryption function is y = (a * x + b) mod m
+- (2) The decryption function is the inverse operation
+- (3) Do the encryption backwards (mathematically decryption is x = a<sup>-1</sup> * (y − b) mod m where a<sup>-1</sup> satisfies the equation 1 = a * a<sup>-1</sup> mod m, but in this case thinking mathematically will make programming much more difficult).
 
 **To encrypt** consider our plaintext ‘green’ and its cyphertext ‘nrggl’ now using our affine key (a=5, b=8). After scrambling the alphabet using the keyword “michigan” and encrypting the plaintext "green” to “nrggl”, we will encrypt "nrggl" using the table mentioned above for the numeric values of each letter, from our key a is 5 and b is 8, and finally m is 26 since there are 26 characters in the alphabet being used. The first step is to write the numeric values of each letter using the scrambled alphabet. Then, take each value of x, and solve the first part of the equation, (5x + 8). After finding the value of (5x + 8) for each character, take the remainder when dividing the result of (5x + 8) by 26. The final step in encrypting the message is to look up each numeric value in the table for the corresponding letters. In this example, the encrypted text would be “kpccv”. The table below shows the completed table for encrypting a message in the Affine cipher.
 
