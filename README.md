@@ -9,3 +9,5 @@ The substitution cipher is a cipher that has been in use for many hundreds of ye
 ![image](https://github.com/liutiantian233/Password-Program/blob/master/index.png)
 
 Then, using this system, the keyword "michigan" gives us the following alphabet mapping:
+
+![image](https://github.com/liutiantian233/Password-Program/blob/master/michigan.png)
