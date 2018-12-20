@@ -2,6 +2,13 @@
 
 The substitution cipher is a cipher that has been in use for many hundreds of years. It basically consists of substituting every plaintext character for a different ciphertext character. The cipher alphabet may be shifted or reversed or scrambled. In this project, we will **combine** two types of substitution cyphers: a simple substitution cipher followed by an affine cipher.
 
+## Assignment Overview
+
+In this assignment, we are going to implement a simple encoding and decoding of text. As a result of working on this project, you will gain more experience with the use of:
+- string
+- if statement
+- for loop and while loop
+
 -------------------
 
 ## Encoding
