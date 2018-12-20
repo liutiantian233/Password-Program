@@ -70,3 +70,10 @@ If the command is encode, then the program prompts for a string to encode and a 
 If the command is decode, then the program should prompt for a string to decode and a keyword. The output should be the decoded string (plain text).
 
 If the command is quit, then the program ends and prints a nice exit message.
+
+---------
+## Feedback and suggestions
+- E-mail：<liutia20@msu.edu>
+
+---------
+Thanks for reading this help document
