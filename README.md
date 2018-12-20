@@ -126,6 +126,7 @@ if answer.upper() == 'E':
 
     print("your encoded message: ",e)
 ```
+---------
 
 ## Feedback and suggestions
 - E-mail：<liutia20@msu.edu>
