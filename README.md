@@ -21,4 +21,6 @@ Using the example above, the word “green” is translated as follows:
 - the ‘e’ is found at index 4, the rotated letter is ‘g’.
 - the ‘n’ is found at index 13, the rotated letter is ‘l’.
 
+Thus, the string ‘green’ becomes the string ‘nrggl’. You will use that cyphertext ‘nrggl’ as the starting point (“plaintext”) for the next stage, the affine cipher.
+
 -------------------
