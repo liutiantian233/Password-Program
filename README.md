@@ -5,3 +5,4 @@ The substitution cipher is a cipher that has been in use for many hundreds of ye
 ## Encoding and Decoding
  
 **Simple substitution cipher**: the cipher alphabet is created by first writing out a keyword, removing repeated letters in it, then writing all the remaining letters in the alphabet in the usual order. Consider the following example. Consider the alphabet being a single string consisting of the lower-case English letters as below (shown with each letter’s associated index, e.g. m’s index is 12):
+
