@@ -3,7 +3,6 @@
 The substitution cipher is a cipher that has been in use for many hundreds of years. It basically consists of substituting every plaintext character for a different ciphertext character. The cipher alphabet may be shifted or reversed or scrambled. In this project, we will **combine** two types of substitution cyphers: a simple substitution cipher followed by an affine cipher.
 
 -------------------
--------------------
 
 ## Encoding and Decoding
  
