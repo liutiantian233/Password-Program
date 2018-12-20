@@ -47,3 +47,25 @@ Thus, the string ‘green’ becomes the string ‘nrggl’. You will use that c
 **Build the entire affine mapping and then use it to encrypt the plaintext.**
 
 **To decrypt** you want to reverse that process. That is, start with the ciphertext “k” and work backwards (using the affine mapping) to get “n” and repeat for the remaining characters.
+
+-------------------
+
+## Description / Specification
+
+The program should prompt the user for one of three commands:
+>1. "e" to encode a string
+>2. "d" to decode a string
+>3. "q" to quit
+>4. Any other command should raise an error and reprompt. Accept either upper or lower case letters (Use the string method **upper()** or **lower()**). Use ‘q’ to control your **while** loop.
+
+If the command is encode, then the program prompts for a string to encode and a keyword (which consist only of letters). The program then returns the encoded string (cipher text).
+>1. To build the symmetric key, start with an empty string and as you loop through the keyword add characters to the key string (remember to check for duplicates before insertion. The string **in** operator is useful and remember that you can also use **not** as part of a Boolean expression, i.e. **not in**). Repeat to add the remaining characters in the alphabet.
+>2. To encode you will find the string **index()** or **find()** methods useful for finding the index of a character in the alphabet.
+>3. Important, the program should **not encode** any letter that is not in the lower-case alphabet. If upper case, then convert it to lower case. Punctuations, special characters and numbers should simply be passed through to the encoded string.
+>4. The **keyword** should only contain lower case letters and its length should be between at least 1 and less or equal to 26. If not the case, then the program should display an error message and prompt the user to give another keyword.
+>5. For the affine cipher always use a = 5, b = 8, and m = 26. (mod is Python’s % operator. Also, start with an empty cyphertext and add each encrypted character one at a time to the cyphertext as you encrypt each one.)
+>6. The string **isalpha()** method may be helpful. Also, **import string** and **string.ascii_lowercase** might also be useful.
+
+If the command is decode, then the program should prompt for a string to decode and a keyword. The output should be the decoded string (plain text).
+
+If the command is quit, then the program ends and prints a nice exit message.
