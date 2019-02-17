@@ -69,7 +69,7 @@ If the command is encode, then the program prompts for a string to encode and a 
 3. Important, the program should **not encode** any letter that is not in the lower-case alphabet. If upper case, then convert it to lower case. Punctuations, special characters and numbers should simply be passed through to the encoded string.
 4. The **keyword** should only contain lower case letters and its length should be between at least 1 and less or equal to 26. If not the case, then the program should display an error message and prompt the user to give another keyword.
 5. For the affine cipher always use a = 5, b = 8, and m = 26. (mod is Python’s % operator. Also, start with an empty cyphertext and add each encrypted character one at a time to the cyphertext as you encrypt each one.)
-6. The string **isalpha()** method may be helpful. Also, **import string** and **string.ascii_lowercase** might also be useful.
+6. The string **isalpha()** method may be helpful. Also, **import string** and **string ascii_lowercase** might also be useful.
 
 If the command is decode, then the program should prompt for a string to decode and a keyword. The output should be the decoded string (plain text).
 
